@@ -1,0 +1,16 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Cabin", sans-serif;
+color: #231651;}
+ul, li{list-style-type: none;}
+.main-nav{padding: 10px 150px;
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+.main-nav .logo img{width: 145px;}
+ul{display: flex;
+align-items: center;
+gap: 35px;}
+.language{display: flex;
+align-items: center;}

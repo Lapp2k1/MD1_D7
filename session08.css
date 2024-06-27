@@ -72,7 +72,6 @@
   }
 }
 
-
 /* ----------- HERO_SECTION CSS ----------- */
 .banner-section {
   display: flex;
@@ -223,8 +222,6 @@
   grid-template-columns: auto auto auto auto;
   gap: 20px;
   padding: 20px 150px;
-  position: absolute;
-  top: 610px;
 }
 .content-box .box {
   text-align: center;
@@ -233,14 +230,14 @@
   padding: 15px 25px;
   background-color: white;
   box-shadow: 0px 1px 5px 0px #e1e1e1bf;
+  position: relative;
+  top: -60px;
+  transition: top 0.5s ease;
 }
 .content-box .box:hover {
   position: relative;
-  top: -20px;
-  transition-duration: 250ms;
-
+  top: -100px;
 }
-
 
 .box-text h2 {
   color: #bc2229;
@@ -263,4 +260,270 @@
     width: 100%;
     top: 900px;
   }
+}
+.home-page4 .section-content {
+  max-width: 1190px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  position: relative !important;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  justify-content: center;
+}
+.home-page .tieude {
+  text-align: left;
+  margin-bottom: 30px;
+  max-width: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+@media only screen and (min-width: 960px) {
+  .home-page4 .featured-box {
+    max-width: 31%;
+  }
+}
+
+.home-page4 .featured-box {
+  flex-basis: 100%;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+.icon-box .icon-box-img {
+  margin-bottom: 1em;
+  max-width: 100%;
+  position: relative;
+  width: 40px;
+}
+img {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.banner h1,
+.banner h2 {
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.off-canvas-center .nav-sidebar.nav-vertical > li > a {
+  font-family: Cabin, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font {
+  color: #bc2228;
+}
+#text-2462338469 {
+  font-size: 1rem;
+}
+
+.last-reset :last-child {
+  margin-bottom: 0;
+}
+.home-page4 .featured-box {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin: 0 auto 40px;
+  text-align: left;
+  row-gap: 20px;
+}
+icon-box-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text {
+  padding: 20px 0px;
+}
+.home-page4 a.button {
+  font-weight: 500;
+}
+
+.home-page4 a.button {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+.lowercase {
+  text-transform: none !important;
+}
+.primary,
+input[type="submit"],
+input[type="submit"].button {
+}
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: currentColor;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.97em;
+  font-weight: bolder;
+  letter-spacing: 0.03em;
+  line-height: 2.4em;
+  margin-right: 1em;
+  margin-top: 0;
+  max-width: 100%;
+  min-height: 2.5em;
+  padding: 0 1.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: transform 0.3s, border 0.3s, background 0.3s, box-shadow 0.3s,
+    opacity 0.3s, color 0.3s;
+  vertical-align: middle;
+}
+.section {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  min-height: auto;
+  padding: 30px 0;
+  position: relative;
+  width: 100%;
+}
+.bg-loaded {
+  opacity: 1;
+}
+
+.bg {
+  opacity: 0;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+.bg-fill {
+  background-position: 50% 50%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.fill {
+  height: 100%;
+  left: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.bottom,
+.fill {
+  bottom: 0;
+}
+.section-bg,
+.section-content {
+  width: 100%;
+}
+.section-bg {
+  overflow: hidden;
+}
+
+.home-page5 .section-content {
+  max-width: 1190px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+}
+.home-section .section-content {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.relative {
+  position: relative !important;
+}
+.section-content {
+  z-index: 1;
+}
+.section-bg,
+.section-content {
+  width: 100%;
+}
+.home-page .tieude {
+  text-align: left;
+  margin-bottom: 30px;
+  max-width: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+@media only screen and (min-width: 960px) {
+  .home-page5 .noidung {
+    max-width: 32%;
+  }
+}
+
+.home-page5 .noidung {
+  flex-basis: 100%;
+  margin: 0 auto 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #efedf5;
+  transition: transform 250ms;
+}
+.home-page5 .noidung h3 {
+  color: #231651;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.home-page5 .noidung ul {
+  margin: 0px;
+  list-style: none;
+  font-size: 16px;
+}
+.home-page5 .noidung ul li {
+  padding-left: 35px;
+  line-height: 25px;
+  position: relative;
+  line-height: 25px;
+}
+
+li {
+  margin-bottom: 0.6em;
+}
+.home-page5 .noidung ul li:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: url(https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check1.png)
+    no-repeat center left;
+  background-size: contain;
+  position: absolute;
+  left: 0px;
 }
